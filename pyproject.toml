@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "pliscomp"
+version = "0.1.0"
+description = "pliscomp is a linter that detects places where list comprehensions can be utilized."
+authors = ["dankrzeminski32 <dankrzeminski32@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+click = "^8.1.7"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.3.3"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
